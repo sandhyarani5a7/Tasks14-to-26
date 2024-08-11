@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #282c34;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.home-heading {
+ text-align: center;
+ width: 100%;
+
+
+}
+
+.movie-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-detail img {
+  width: 300px;
+  height: auto;
+}
+
+
+
+.carousel-item img {
+  height: 450px;
+  object-fit: cover;
+}
+.carousel-caption h3,
+.carousel-caption p{
+ color: #ff0000;
+}
+.contact-Heading,
+.movies-heading{
+  text-align: center;
+}
+.contact-Form{
+  width:30%;
+  margin: auto;
+}
+.contact-Section{
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+  
+}
+.form-label {
+  font-weight: bold;
+
+}
+.contact-Button{
+  width: 100%;
+  margin-top: 20px;
+  
+}
+
+
+
+
+
